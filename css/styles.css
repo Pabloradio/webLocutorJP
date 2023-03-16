@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Covered+By+Your+Grace&family=Poiret+One&family=Rock+Salt&family=Square+Peg&display=swap');
+
+*{
+    /* font-family: 'Amatic SC', cursive;
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Square Peg', cursive;
+    font-family: 'Rock Salt', cursive;*/
+
+    font-family: 'Poiret One', cursive;
+    background-color: rgb(94, 94, 94);
+    color: white;
+}
+
+.myName {
+    font-size: 42px;
+    text-align: center;
+}
+
+.whoIam{
+    text-align: center;
+    background-color: rgb(203, 255, 15);
+    font-size: 16px;
+}
+
+.myVoice{
+    font-size: 24px;
+}
+
+.Menu_nav{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(203, 255, 15);
+}
+
+.Menu_list_elements{
+    display: inline-block;
+}
+
+.Menu_list_elements a{
+    text-decoration: none;
+    color: rgb(203, 255, 15);
+}
+
+.Menu_list_elements a:hover{
+    color: white;
+}
+
+.Menu_list_elements a::after{
+content: " | ";
+}
+
+.myVoice{
+    text-align: center;
+    font-size: 32px;
+}
+
+.otrosRegistros{
+    font-size: 28px;
+    text-align: center;
+}
+
+.registros{
+    font-size: 18px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.audios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.videoToo{
+    font-size: 28px;
+}
+
+#babybel{
+    text-align: center;
+}
+
+.fichajes{
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+    font-size: 28px;
+}
+
+p{
+    text-align: center;
+    font-size: 22px;
+}
+
+.hablemos a{
+    font-size: 72px;
+    text-decoration: none;
+    color: rgb(203, 255, 15);
+}
+
+.hablemos a:hover{
+    color: white;
+}

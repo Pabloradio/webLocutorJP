@@ -7,20 +7,25 @@
     <title>Encuesta</title>
 </head>
 <body>
-<h1>
-    Encuesta de locuciones favoritas
-</h1>
+<h1>Encuesta de locuciones favoritas</h1>
 
-<h2>
-    
-<select name="Elige tu favorita de mis locuciones" id="" multiple>
+<form action="" method="get">
+<label for="voiceover">Elige tu(s) locución(es) favorita(s)</label>
+<select name="voiceover" id="voiceover" multiple>
     <option value="Babybel">La de los quesitos.</option>
     <option value=""></option>
 </select>
 
-<textarea id="tale" name="tale" rows="10" cols="50"> Cuéntame por qué. </textarea> />
+<br>
+
+<label for="explanation"></label>
+<textarea id="explanation" name="explanation" rows="10" cols="50"> Cuéntame por qué. </textarea> />
+
+<input type="submit" value="Enviar encuesta">
+</form>
+<br>
 
 
-</h2>
+
 </body>
 </html>

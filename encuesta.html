@@ -5,26 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuesta</title>
+
+    <style>
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Estilos específicos para el formulario */
+#voiceover {
+  height: 100px;
+}
+
+#explanation {
+  height: 100px;
+}
+
+
+
+    </style>
 </head>
+
 <body>
 <h1>Encuesta de locuciones favoritas</h1>
-
 <form action="" method="get">
-<label for="voiceover">Elige tu(s) locución(es) favorita(s)</label>
-<select name="voiceover" id="voiceover" multiple>
-    <option value="Babybel">La de los quesitos.</option>
-    <option value="Oney">La de Oney</option>
-    <option value="Nescafe">La del café</option>
-</select>
+    <label for="voiceover">Elige tu(s) locución(es) favorita(s)</label>
+    <select name="voiceover" id="voiceover" multiple>
+        <option value="Babybel">La de los quesitos.</option>
+        <option value="Oney">La de Oney</option>
+        <option value="Nescafe">La del café</option>
+    </select>
+    <label for="explanation"></label>
+    <textarea id="explanation" name="explanation" rows="10" cols="50"> Cuéntame por qué. </textarea>
 
-<br>
-
-<label for="explanation"></label>
-<textarea id="explanation" name="explanation" rows="10" cols="50"> Cuéntame por qué. </textarea> />
-
-<input type="submit" value="Enviar encuesta">
+    <input type="submit" value="Enviar encuesta">
 </form>
-<br>
 
 
 
